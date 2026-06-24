@@ -1,0 +1,15 @@
+{
+  "name": "telematics-backend",
+  "version": "1.0.0",
+  "description": "Simple HTTP backend to receive ESP32 telematics JSON data and show live dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
